@@ -2,7 +2,8 @@
 
 <!-- Coloca una imagen representativa de tu desarrollo siempre que puedas -->
 
-![Texto ALT de la imagen que utilices para mostrar el proyecto]([[public/projects/project-portfolio-arromero.jpg](https://github.com/arromero4/mibi-test/blob/main/crud-mibi/src/assets/mibi-portada.JPG)](https://github.com/arromero4/mibi-test/blob/main/crud-mibi/src/assets/mibi-portada.JPG?raw=true))
+![Portada de Mibi](https://github.com/arromero4/mibi-test/blob/main/crud-mibi/src/assets/mibi-portada.JPG?raw=true)
+
 
 ## Descripción
 
