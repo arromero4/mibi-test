@@ -40,33 +40,38 @@ Listado de  las tecnologías que utilicé para el desarrollo de mi portafolio.
 ## Estructura del proyecto
 
 En esta sección se muestra la estructura del proyecto realizado:
-project/
-├── backend/
-│   ├── node_modules/
-│   ├── server.js
-│   ├── .env
-│   └── package.json
-│   └── package-lock.json
-└── crud-mibi/
-    ├── node_modules/
-    ├── public/
-    ├── src/
-    │   ├── assets/
-    │   ├── components/
-    │   │   ├── Create.jsx
-    │   │   └── Home.jsx
-    │   │   └── Mibi.jsx
-    │   │   └── Update.jsx
-    │   └── main.jsx
-    │   ├── App.jsx
-    └── Create.test.jsx
-    └── Delete.test.jsx
-    └── package.json
-    └── package-lock.json
-    └── .gitignore
-    └── README.md
-    └── vite.config.js
-    └── eslint.config.js
+
+### Backend
+- **`node_modules/`**: Directorio generado automáticamente que contiene las dependencias instaladas del servidor.
+- **`server.js`**: Archivo principal para la configuración del servidor.
+- **`.env`**: Archivo para almacenar variables de entorno.
+- **`package.json`**: Configuración del proyecto y dependencias del backend.
+- **`package-lock.json`**: Registro exacto de las versiones instaladas de las dependencias.
+
+### CRUD-Mibi
+- **`node_modules/`**: Directorio generado automáticamente con las dependencias de la aplicación.
+- **`public/`**: Archivos públicos que pueden ser servidos directamente.
+- **`src/`**: Contiene el código fuente principal del proyecto.
+  - **`assets/`**: Recursos estáticos como imágenes, estilos o fuentes.
+  - **`components/`**: Componentes React reutilizables.
+    - **`Create.jsx`**: Componente para la funcionalidad de creación.
+    - **`Home.jsx`**: Componente para la página de inicio.
+    - **`Mibi.jsx`**: Componente central del CRUD.
+    - **`Update.jsx`**: Componente para la funcionalidad de actualización.
+  - **`main.jsx`**: Punto de entrada de la aplicación.
+- **`App.jsx`**: Archivo principal que define la estructura general de la aplicación.
+- **`Create.test.jsx` y `Delete.test.jsx`**: Pruebas unitarias para la funcionalidad de creación y eliminación.
+- **`package.json`**: Configuración y dependencias del frontend.
+- **`package-lock.json`**: Registro exacto de las versiones instaladas de las dependencias.
+- **`.gitignore`**: Archivo para excluir ciertos archivos y carpetas del repositorio Git.
+- **`README.md`**: Documento de descripción del proyecto.
+- **`vite.config.js`**: Configuración para el empaquetador Vite.
+- **`eslint.config.js`**: Configuración para ESLint.
+
+---
+
+Con esta estructura clara, puedes navegar fácilmente a través de los directorios y comprender el propósito de cada archivo y carpeta dentro del proyecto.
+
 
 
 ## Aprendizajes
