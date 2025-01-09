@@ -21,22 +21,22 @@ Listado de  las tecnologías que utilicé para el desarrollo de mi portafolio.
 
 ##Indicaciones técnicas para levantamiento localmente
 
-| Comando                     | Acción realizada                                                 |
+| Comando a ejecutar          | Acción a realizar                                                |
 | :---------------------      | :--------------------------------------------------------------- |
 | `1. git clone`                Clonar el repositorio, link proporcionado vía correo electronico. 
 | `2. instalar xampp`           Dado el caso de no contar con el servidor apache link: https://www.apachefriends.org/es/index.html
-
+|                             |                                                                  |
 | Dentro de la carpeta "crud-mobi":
 |  `3. npm install`           | Instala todas las dependencias                     
 | `4. npm run dev`            | Inicia un server de desarrollo en `localhost:8081`
-
+|                             |                                                                  |
 | Dentro de la carpeta "backend":
   `5. npm install`            | Instala todas las dependencias                     
 | `6. npm start`              | Inicia un server backend
-
+|                             |                                                                  |
 | Con XAMPP ya instalado:
   `7. Iniciar los servicios`  | Iniciar los servicios apache y MySQL                 
-
+|                             |                                                                  |
 
 ## Estructura del proyecto
 
